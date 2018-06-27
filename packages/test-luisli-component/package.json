@@ -1,5 +1,5 @@
 {
-  "name": "region-component",
+  "name": "test-luisli-component",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "questionary-component": "^1.0.3",
+    "region-component": "^1.0.3"
+  }
 }
