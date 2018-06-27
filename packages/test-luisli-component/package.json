@@ -1,6 +1,6 @@
 {
   "name": "@luisli88/test-luisli-component",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@luisli88/questionary-component": "^1.0.9",
-    "@luisli88/region-component": "^1.0.9"
+    "@luisli88/questionary-component": "^1.0.10",
+    "@luisli88/region-component": "^1.0.10"
   },
   "description": "",
   "publishConfig": {
