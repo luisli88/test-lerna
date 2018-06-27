@@ -1,7 +1,6 @@
 {
   "name": "@luisli88/test-luisli-component",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,6 @@
   "dependencies": {
     "questionary-component": "^1.0.3",
     "region-component": "^1.0.3"
-  }
+  },
+  "description": ""
 }
