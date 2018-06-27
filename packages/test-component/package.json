@@ -1,6 +1,6 @@
 {
   "name": "test-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "questionary-component": "^1.0.1",
-    "region-component": "^1.0.1"
+    "questionary-component": "^1.0.2",
+    "region-component": "^1.0.2"
   }
 }
