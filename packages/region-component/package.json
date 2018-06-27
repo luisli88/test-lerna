@@ -1,6 +1,6 @@
 {
-  "name": "region-component",
-  "version": "1.0.3",
+  "name": "@luisli88/region-component",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {

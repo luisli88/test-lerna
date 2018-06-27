@@ -1,6 +1,6 @@
 {
-  "name": "questionary-component",
-  "version": "1.0.3",
+  "name": "@luisli88/questionary-component",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
