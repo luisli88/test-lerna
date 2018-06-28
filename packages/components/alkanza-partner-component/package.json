@@ -1,6 +1,6 @@
 {
   "name": "@luisli88/alkanza-partner-component",
-  "version": "0.0.2",
+  "version": "0.0.1-1",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.4.1"
