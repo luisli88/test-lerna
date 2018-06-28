@@ -47,7 +47,7 @@ If the `npm install` command (used internally) requires additional arguments, th
 ```
 
 ## Package definition
-The packages must be defined inside a folder configured in the `lerna.json`. Each package must contain a `package.json` file that identifies the folder as package. Lerna identifies the packages automatically. If there is not that file, you can generate it with `npm init` command.
+The packages must be defined inside a folder configured in the `lerna.json`. Each package must contain a `package.json` file that identifies the folder as package. Lerna identifies the packages automatically. If there is not that file, you can generate it with `npm init [--scope=<scope_name>]` command.
 
 ## Configure React component
 If you want to generate a React component, there are additional configurations about `webpack` and `babel`, including internationalization support.
@@ -233,3 +233,26 @@ npm link <package_name> # Obtain the project link registered before
 ~~~
 
 If you want to develop and check the changes in real time, you can run `npm run start` from package folder, and its build and refresh the main file used by the linked app.
+
+### Publish package
+Before realize the publication of a new versions in the npm package manager, you must login:
+
+~~~
+npm login
+~~~
+
+You already have created a npmjs.com account.
+
+If you want to register a scoped package, you need the domain (if the scope is personal you must use the default domain https://registry.npmjs.org/)
+
+~~~
+npm config set scope @<scope>:registry <domain>
+~~~
+
+If you want to publish your organization scope in a public context (This is mandatory when you don't have a paid npmjs subscription):
+
+~~~
+npm config set access public
+~~~
+
+To publish and review the changes of the version, you must user the `lerna publish` command. It guides you through questions and evaluate if the packages needs and upgrade, and simplifies the `npm publish` process.
