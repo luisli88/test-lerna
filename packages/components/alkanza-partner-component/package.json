@@ -1,7 +1,6 @@
 {
-  "name": "alkanza-partner-component",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@luisli88/alkanza-partner-component",
+  "version": "0.0.0.1",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.4.1"
@@ -38,5 +37,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
